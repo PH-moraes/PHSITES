@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lúmen Nail Studio — Manicure e Nail Design</title>
+  <meta name="description" content="Estúdio de manicure e nail design com hora marcada. Alongamento em fibra, gel na tips, nail art autoral e spa dos pés.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Ir para o conteúdo</a>
+
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#hero" class="logo">
+        <span class="logo__mark" aria-hidden="true">L</span>
+        <span class="logo__text">Lúmen<small>Nail Studio</small></span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Navegação principal">
+        <a href="#servicos">Serviços</a>
+        <a href="#galeria">Galeria</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#depoimentos">Depoimentos</a>
+        <a href="#contato">Contato</a>
+        <a href="#contato" class="btn btn--primary nav__cta">Agendar horário</a>
+      </nav>
+
+      <a href="#contato" class="btn btn--primary header__cta">Agendar</a>
+
+      <button class="burger" id="burger" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- HERO -->
+    <section class="hero" id="hero">
+      <div class="hero__blob hero__blob--1" aria-hidden="true"></div>
+      <div class="hero__blob hero__blob--2" aria-hidden="true"></div>
+
+      <div class="container hero__inner">
+        <p class="badge">Atendimento com hora marcada</p>
+        <h1 class="hero__title">Suas mãos,<br>nosso detalhe.</h1>
+        <p class="hero__text">
+          Nail design autoral feito com calma, produtos hipoalergênicos e
+          esterilização certificada. Um espaço silencioso no meio da cidade
+          para você sair com as unhas — e a cabeça — no lugar.
+        </p>
+        <div class="hero__actions">
+          <a href="#contato" class="btn btn--primary">Agendar horário</a>
+          <a href="#servicos" class="btn btn--ghost">Ver serviços</a>
+        </div>
+        <ul class="hero__proof">
+          <li><strong>4,9</strong><span>Avaliação média</span></li>
+          <li><strong>3.500+</strong><span>Clientes atendidas</span></li>
+          <li><strong>7 anos</strong><span>De estúdio aberto</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- DESTAQUES -->
+    <section class="strip">
+      <div class="container strip__grid">
+        <div class="strip__item">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l2.2 5.5L20 10l-5.8 1.5L12 17l-2.2-5.5L4 10l5.8-1.5z"/></svg>
+          <div><h3>Produtos premium</h3><p>Esmaltes e géis hipoalergênicos, livres de 10 químicos agressivos.</p></div>
+        </div>
+        <div class="strip__item">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l7 3v6c0 5-3 8.5-7 11-4-2.5-7-6-7-11V5z"/></svg>
+          <div><h3>Esterilização certificada</h3><p>Autoclave e instrumental descartável em todos os atendimentos.</p></div>
+        </div>
+        <div class="strip__item">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 12a4 4 0 100-8 4 4 0 000 8zm0 2c-4 0-7 2-7 4.5V21h14v-2.5C19 16 16 14 12 14z"/></svg>
+          <div><h3>Nail artists fixas</h3><p>Você é atendida sempre pela mesma profissional, que conhece suas unhas.</p></div>
+        </div>
+        <div class="strip__item">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h13v3h3v9H4zM7 10h7"/></svg>
+          <div><h3>Café e música ambiente</h3><p>Playlist calma, café fresco e nenhuma pressa para acabar.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVIÇOS -->
+    <section class="section" id="servicos">
+      <div class="container">
+        <header class="section__head">
+          <p class="eyebrow">Serviços e valores</p>
+          <h2>O que fazemos</h2>
+          <p class="section__lead">Todos os valores incluem preparo, cutilagem russa e finalização com óleo nutritivo.</p>
+        </header>
+
+        <div class="cards">
+          <article class="card">
+            <h3>Manicure clássica</h3>
+            <p>Cutilagem fina, lixamento, hidratação e esmaltação tradicional.</p>
+            <footer><span class="card__time">40 min</span><span class="card__price">R$ 55</span></footer>
+          </article>
+          <article class="card">
+            <h3>Pedicure spa</h3>
+            <p>Escalda-pés, esfoliação, remoção de calosidades e esmaltação.</p>
+            <footer><span class="card__time">50 min</span><span class="card__price">R$ 70</span></footer>
+          </article>
+          <article class="card">
+            <h3>Alongamento em fibra</h3>
+            <p>Extensão em fibra de vidro com formato personalizado.</p>
+            <footer><span class="card__time">2 h</span><span class="card__price">R$ 180</span></footer>
+          </article>
+          <article class="card">
+            <h3>Gel na tips</h3>
+            <p>Alongamento em gel com ponteira, acabamento em camada de brilho.</p>
+            <footer><span class="card__time">1 h 40</span><span class="card__price">R$ 160</span></footer>
+          </article>
+          <article class="card">
+            <h3>Nail art autoral</h3>
+            <p>Composição criada junto com você: traços, relevos e pedrarias.</p>
+            <footer><span class="card__time">a partir de 30 min</span><span class="card__price">R$ 25</span></footer>
+          </article>
+          <article class="card">
+            <h3>Blindagem</h3>
+            <p>Camada de proteção que reforça a unha natural sem alongar.</p>
+            <footer><span class="card__time">1 h</span><span class="card__price">R$ 90</span></footer>
+          </article>
+          <article class="card">
+            <h3>Spa dos pés</h3>
+            <p>Ritual completo de 1h com máscara, massagem e parafina.</p>
+            <footer><span class="card__time">1 h</span><span class="card__price">R$ 120</span></footer>
+          </article>
+          <article class="card">
+            <h3>Remoção técnica</h3>
+            <p>Retirada segura de alongamento ou gel, com recuperação da unha.</p>
+            <footer><span class="card__time">40 min</span><span class="card__price">R$ 40</span></footer>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALERIA -->
+    <section class="section section--tint" id="galeria">
+      <div class="container">
+        <header class="section__head">
+          <p class="eyebrow">Portfólio</p>
+          <h2>Trabalhos recentes</h2>
+          <p class="section__lead">Uma amostra do que sai da nossa mesa. Filtre por estilo.</p>
+        </header>
+
+        <div class="filters" role="group" aria-label="Filtrar galeria">
+          <button class="filter is-active" data-filter="todos">Todos</button>
+          <button class="filter" data-filter="classico">Clássico</button>
+          <button class="filter" data-filter="francesinha">Francesinha</button>
+          <button class="filter" data-filter="nailart">Nail Art</button>
+          <button class="filter" data-filter="alongamento">Alongamento</button>
+        </div>
+
+        <div class="gallery" id="gallery">
+          <figure class="gallery__item" data-cat="classico">
+            <div class="nail nail--nude" aria-hidden="true"></div>
+            <figcaption>Nude acetinado</figcaption>
+          </figure>
+          <figure class="gallery__item" data-cat="francesinha">
+            <div class="nail nail--french" aria-hidden="true"></div>
+            <figcaption>Francesinha fina</figcaption>
+          </figure>
+          <figure class="gallery__item" data-cat="nailart">
+            <div class="nail nail--art" aria-hidden="true"></div>
+            <figcaption>Traço dourado</figcaption>
+          </figure>
+          <figure class="gallery__item" data-cat="alongamento">
+            <div class="nail nail--long" aria-hidden="true"></div>
+            <figcaption>Fibra amendoada</figcaption>
+          </figure>
+          <figure class="gallery__item" data-cat="classico">
+            <div class="nail nail--wine" aria-hidden="true"></div>
+            <figcaption>Vinho profundo</figcaption>
+          </figure>
+          <figure class="gallery__item" data-cat="nailart">
+            <div class="nail nail--chrome" aria-hidden="true"></div>
+            <figcaption>Efeito chrome</figcaption>
+          </figure>
+          <figure class="gallery__item" data-cat="francesinha">
+            <div class="nail nail--microline" aria-hidden="true"></div>
+            <figcaption>Microlinha off-white</figcaption>
+          </figure>
+          <figure class="gallery__item" data-cat="alongamento">
+            <div class="nail nail--quadrada" aria-hidden="true"></div>
+            <figcaption>Gel quadrada</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOBRE -->
+    <section class="section" id="sobre">
+      <div class="container about">
+        <div class="about__visual" aria-hidden="true">
+          <div class="about__frame">
+            <div class="about__bottle"></div>
+            <div class="about__bottle about__bottle--2"></div>
+            <div class="about__shadow"></div>
+          </div>
+          <p class="about__tag">Desde 2019</p>
+        </div>
+
+        <div class="about__content">
+          <p class="eyebrow">O estúdio</p>
+          <h2>Um lugar onde ninguém tem pressa</h2>
+          <p>
+            O Lúmen nasceu em 2019 de uma ideia simples: manicure não precisa ser
+            um intervalo corrido entre duas tarefas. Aqui cada horário é reservado
+            com folga para conversar, avaliar a saúde da unha e escolher o desenho
+            com calma.
+          </p>
+          <p>
+            Somos quatro nail artists fixas, com formação em cutilagem russa e
+            nail art. Trabalhamos com marcas nacionais e importadas, todas
+            registradas na Anvisa, e todo o instrumental passa por autoclave
+            antes de encostar na sua mão.
+          </p>
+          <ul class="about__stats">
+            <li><strong>7</strong><span>anos de estúdio</span></li>
+            <li><strong>3.500+</strong><span>clientes atendidas</span></li>
+            <li><strong>4</strong><span>nail artists fixas</span></li>
+            <li><strong>4,9</strong><span>nota no Google</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- DEPOIMENTOS -->
+    <section class="section section--tint" id="depoimentos">
+      <div class="container">
+        <header class="section__head">
+          <p class="eyebrow">Quem já passou por aqui</p>
+          <h2>Depoimentos</h2>
+        </header>
+
+        <div class="testimonials">
+          <figure class="testimonial">
+            <div class="stars" aria-label="5 de 5 estrelas">★★★★★</div>
+            <blockquote>“Faço alongamento há três anos aqui e nunca tive problema. A unha cresce saudável e o formato fica exatamente como eu pedi.”</blockquote>
+            <figcaption>Marina A. <span>cliente desde 2022</span></figcaption>
+          </figure>
+          <figure class="testimonial">
+            <div class="stars" aria-label="5 de 5 estrelas">★★★★★</div>
+            <blockquote>“É o único lugar em que eu consigo desligar do trabalho. O café, a música, o silêncio. Saio outra pessoa.”</blockquote>
+            <figcaption>Eduarda L. <span>pedicure spa mensal</span></figcaption>
+          </figure>
+          <figure class="testimonial">
+            <div class="stars" aria-label="5 de 5 estrelas">★★★★★</div>
+            <blockquote>“Levei minha mãe de 72 anos para a primeira manicure da vida dela. Trataram ela com um cuidado que me emocionou.”</blockquote>
+            <figcaption>Thiago R. <span>primeira visita em 2025</span></figcaption>
+          </figure>
+          <figure class="testimonial">
+            <div class="stars" aria-label="5 de 5 estrelas">★★★★★</div>
+            <blockquote>“Pedi uma nail art para casamento e chorei quando vi. Fizeram uma composição exclusiva, nada de copiar modelo de Pinterest.”</blockquote>
+            <figcaption>Jéssica M. <span>noiva, 2025</span></figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section" id="faq">
+      <div class="container faq">
+        <header class="section__head section__head--left">
+          <p class="eyebrow">Dúvidas frequentes</p>
+          <h2>Antes de agendar</h2>
+        </header>
+
+        <div class="accordion" id="accordion">
+          <div class="accordion__item">
+            <button class="accordion__trigger" aria-expanded="false">
+              Quanto tempo dura o alongamento em fibra?
+              <span class="accordion__icon" aria-hidden="true"></span>
+            </button>
+            <div class="accordion__panel">
+              <p>A aplicação leva cerca de 2 horas. Com manutenção a cada 20 ou 25 dias, a estrutura dura em média 3 meses sem perder o formato.</p>
+            </div>
+          </div>
+          <div class="accordion__item">
+            <button class="accordion__trigger" aria-expanded="false">
+              De quanto em quanto tempo preciso fazer manutenção?
+              <span class="accordion__icon" aria-hidden="true"></span>
+            </button>
+            <div class="accordion__panel">
+              <p>O intervalo ideal é de 20 a 25 dias. Passando disso, a unha começa a sofrer mais impacto na base, e o resultado estético perde aderência.</p>
+            </div>
+          </div>
+          <div class="accordion__item">
+            <button class="accordion__trigger" aria-expanded="false">
+              Quais são as formas de pagamento?
+              <span class="accordion__icon" aria-hidden="true"></span>
+            </button>
+            <div class="accordion__panel">
+              <p>Aceitamos Pix, débito, crédito em até 3x sem juros e dinheiro. Para pacotes de manutenção, o Pix tem desconto de 5%.</p>
+            </div>
+          </div>
+          <div class="accordion__item">
+            <button class="accordion__trigger" aria-expanded="false">
+              Qual a política de atraso e cancelamento?
+              <span class="accordion__icon" aria-hidden="true"></span>
+            </button>
+            <div class="accordion__panel">
+              <p>Toleramos 15 minutos de atraso. Depois disso, o horário pode ser reduzido para não impactar a cliente seguinte. Cancelamentos com menos de 12 horas de antecedência ficam sujeitos a uma taxa de 30% do serviço.</p>
+            </div>
+          </div>
+          <div class="accordion__item">
+            <button class="accordion__trigger" aria-expanded="false">
+              O estúdio atende crianças?
+              <span class="accordion__icon" aria-hidden="true"></span>
+            </button>
+            <div class="accordion__panel">
+              <p>Sim, a partir de 6 anos, com responsável presente durante o atendimento. Fazemos apenas cutilagem leve e esmaltação hipoalergênica.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section class="section section--dark" id="contato">
+      <div class="container contact">
+        <div class="contact__intro">
+          <p class="eyebrow">Agendamento</p>
+          <h2>Reserve seu horário</h2>
+          <p class="section__lead">
+            Preencha o formulário e confirmamos pelo WhatsApp em até 2 horas úteis.
+            Se preferir falar agora, é só chamar no telefone ao lado.
+          </p>
+
+          <ul class="contact__info">
+            <li>
+              <strong>Endereço</strong>
+              Rua das Acácias, 412 — Sala 3<br>Pinheiros, São Paulo — SP
+            </li>
+            <li>
+              <strong>Funcionamento</strong>
+              Terça a sexta, 9h às 20h<br>Sábado, 9h às 18h
+            </li>
+            <li>
+              <strong>Contato</strong>
+              (11) 4002-8922<br>ola@lumenstudio.com.br
+            </li>
+            <li>
+              <strong>Instagram</strong>
+              @lumen.nailstudio
+            </li>
+          </ul>
+        </div>
+
+        <form class="form" id="form" novalidate>
+          <div class="form__row">
+            <label for="nome">Nome completo</label>
+            <input type="text" id="nome" name="nome" placeholder="Como te chamamos?" required>
+            <small class="form__error" data-error="nome"></small>
+          </div>
+
+          <div class="form__row">
+            <label for="telefone">WhatsApp</label>
+            <input type="tel" id="telefone" name="telefone" inputmode="numeric" placeholder="(11) 99999-9999" required>
+            <small class="form__error" data-error="telefone"></small>
+          </div>
+
+          <div class="form__row">
+            <label for="servico">Serviço</label>
+            <select id="servico" name="servico" required>
+              <option value="">Selecione...</option>
+              <option>Manicure clássica — R$ 55</option>
+              <option>Pedicure spa — R$ 70</option>
+              <option>Alongamento em fibra — R$ 180</option>
+              <option>Gel na tips — R$ 160</option>
+              <option>Nail art autoral — a partir de R$ 25</option>
+              <option>Blindagem — R$ 90</option>
+              <option>Spa dos pés — R$ 120</option>
+              <option>Remoção técnica — R$ 40</option>
+            </select>
+            <small class="form__error" data-error="servico"></small>
+          </div>
+
+          <div class="form__grid">
+            <div class="form__row">
+              <label for="data">Data</label>
+              <input type="date" id="data" name="data" required>
+              <small class="form__error" data-error="data"></small>
+            </div>
+            <div class="form__row">
+              <label for="horario">Horário</label>
+              <select id="horario" name="horario" required>
+                <option value="">—</option>
+                <option>09:00</option>
+                <option>10:30</option>
+                <option>13:00</option>
+                <option>14:30</option>
+                <option>16:00</option>
+                <option>17:30</option>
+                <option>19:00</option>
+              </select>
+              <small class="form__error" data-error="horario"></small>
+            </div>
+          </div>
+
+          <div class="form__row">
+            <label for="obs">Observações <span>(opcional)</span></label>
+            <textarea id="obs" name="obs" rows="3" placeholder="Referência de cor, formato, alergias..."></textarea>
+          </div>
+
+          <button type="submit" class="btn btn--primary btn--full">Solicitar agendamento</button>
+          <p class="form__note">Este formulário é uma demonstração. Nenhum dado é enviado a um servidor.</p>
+          <p class="form__success" id="formSuccess" role="status" hidden></p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <a href="#hero" class="logo logo--footer">
+        <span class="logo__mark" aria-hidden="true">L</span>
+        <span class="logo__text">Lúmen<small>Nail Studio</small></span>
+      </a>
+
+      <nav class="footer__nav" aria-label="Navegação do rodapé">
+        <a href="#servicos">Serviços</a>
+        <a href="#galeria">Galeria</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contato">Contato</a>
+      </nav>
+
+      <div class="footer__social">
+        <a href="#contato" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg>
+        </a>
+        <a href="#contato" aria-label="WhatsApp">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 12a8 8 0 11-3.2-6.4L20 4l-1.4 3.4A7.9 7.9 0 0120 12z"/></svg>
+        </a>
+      </div>
+    </div>
+    <div class="container footer__bottom">
+      <p>© <span id="year"></span> Lúmen Nail Studio. Todos os direitos reservados.</p>
+      <p>Site fictício criado para fins de demonstração.</p>
+    </div>
+  </footer>
+
+  <a class="whatsapp" href="https://wa.me/551140028922" target="_blank" rel="noopener" aria-label="Falar no WhatsApp">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 12a8 8 0 11-3.2-6.4L20 4l-1.4 3.4A7.9 7.9 0 0120 12z"/></svg>
+  </a>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
