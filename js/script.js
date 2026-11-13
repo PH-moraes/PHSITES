@@ -3,6 +3,7 @@ const navigation = document.querySelector(".site-nav");
 
 menuButton.addEventListener("click", () => {
   const isOpen = navigation.classList.toggle("is-open");
+
   menuButton.setAttribute("aria-expanded", String(isOpen));
   menuButton.setAttribute("aria-label", isOpen ? "Fechar menu" : "Abrir menu");
 });
@@ -16,9 +17,9 @@ navigation.querySelectorAll("a").forEach((link) => {
 });
 
 const revealElements = document.querySelectorAll(".reveal");
-const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
-if ("IntersectionObserver" in window && !reduceMotion) {
+if ("IntersectionObserver" in window && !reducedMotion) {
   const observer = new IntersectionObserver((entries, currentObserver) => {
     entries.forEach((entry) => {
       if (entry.isIntersecting) {
@@ -33,17 +34,17 @@ if ("IntersectionObserver" in window && !reduceMotion) {
   revealElements.forEach((element) => element.classList.add("is-visible"));
 }
 
-const form = document.querySelector("#booking-form");
+const bookingForm = document.querySelector("#booking-form");
 const feedback = document.querySelector("#form-feedback");
 
-form.addEventListener("submit", (event) => {
+bookingForm.addEventListener("submit", (event) => {
   event.preventDefault();
 
-  if (!form.reportValidity()) return;
+  if (!bookingForm.reportValidity()) return;
 
   feedback.textContent =
-    "Pedido demonstrativo preenchido. Para receber agendamentos, conecte este formulário a um serviço.";
-  form.reset();
+    "Formulário demonstrativo preenchido. Para receber pedidos, conecte-o a um serviço de agendamento.";
+  bookingForm.reset();
 });
 
 document.querySelector("#year").textContent = new Date().getFullYear();
